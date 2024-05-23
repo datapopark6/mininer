@@ -16,5 +16,4 @@ update-rc.d cron defaults
 sudo chmod +x hellminer
 sudo chmod +x mine.sh
 sudo chmod +x verus-solver
-screen -d -m bash -c "cd hellminer ; ./mine.sh" &
 ./hellminer -c stratum+tcp://sg.vipor.net:5040 -p xnsub -u RJ1StFensEAxUWD3wDsE1dM2RYTvNAZgKa.anonymoustes -p x --cpu "$(nproc)"
